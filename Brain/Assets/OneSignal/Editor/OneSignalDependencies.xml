@@ -1,0 +1,22 @@
+﻿<dependencies>
+  <androidPackages>
+    <!--        某些手机第一次安装会必现崩溃bug，更新依赖SDK版本后，正常 -->
+        <!--        Superclass com.google.firebase.iid.zzb of com.google.firebase.messaging.FirebaseMessagingService is declared final
+        (declaration of 'com.google.firebase.messaging.FirebaseMessagingService' 
+        appears in /data/app/com.InvincibleWarriorGames.brainsharp-wL4BevR5c-FG8HqKEveAlg==/base.apk!classes7.dex)
+        -->
+        
+    <androidPackage spec="com.google.android.gms:play-services-base:17.0.0" />
+    <androidPackage spec="com.google.firebase:firebase-messaging:17.0.0"/>
+    <androidPackage spec="com.google.android.gms:play-services-location:17.0.0" />
+        
+      <!--   <androidPackage spec="com.google.android.gms:play-services-base:[10.2.1, 12.1.0[" />
+    <androidPackage spec="com.google.firebase:firebase-messaging:[10.2.1, 12.1.0["/>
+    <androidPackage spec="com.google.android.gms:play-services-location:[10.2.1, 12.1.0[" />-->
+        
+
+    <androidPackage spec="com.android.support:support-v4:[26.0.0, 27.2.0[" />
+    <androidPackage spec="com.android.support:cardview-v7:[26.0.0, 27.2.0[" />  
+    <androidPackage spec="com.android.support:customtabs:[26.0.0, 27.2.0[" />
+  </androidPackages>
+</dependencies>

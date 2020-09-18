@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1453245489733001494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1459105030376854566}
+  - component: {fileID: 1565057809751044148}
+  m_Layer: 0
+  m_Name: MoPubManagerTesting
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1459105030376854566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453245489733001494}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1450687114432454182}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1565057809751044148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453245489733001494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99cf74fd5c7f94769a895f510829576d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoInitializeOnStart: 1
+  itunesAppId: 
+  AdUnitId: 
+  LocationAware: 0
+  AllowLegitimateInterest: 0
+  LogLevel: 20
+  Initialized:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: MoPubManager+InitializedEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!1 &1453381859070949758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1450687114432454182}
+  - component: {fileID: 1564610864583161538}
+  - component: {fileID: 1565367773186773626}
+  - component: {fileID: 1454245725692058288}
+  - component: {fileID: 1454245725692058289}
+  - component: {fileID: 1454245725692058290}
+  - component: {fileID: 1454245725692058291}
+  - component: {fileID: 1454245725692058292}
+  m_Layer: 0
+  m_Name: GameMoPubManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1450687114432454182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453381859070949758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1459105030376854566}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1564610864583161538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453381859070949758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f30f64c5bd5b24380b40c623da6eea20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoInitializeOnStart: 0
+  itunesAppId: d28742ccf1e84bf7b1253f9c60c94be7
+  AdUnitId: 8bd1af7ff2444993bafefeba5e33f861
+  LocationAware: 0
+  AllowLegitimateInterest: 0
+  LogLevel: 30
+  Initialized:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: MoPubManager+InitializedEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &1565367773186773626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453381859070949758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3943a3ba43944bd4ac953da181782af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoShowConsentDialog: 1
+  LocationAwarenessUsage: Your location is used to provide more targeted advertising.
+  ConsentStatusChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: MoPubConsent+ConsentStatusChangedEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ConsentDialogLoaded:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: MoPubConsent+ConsentDialogLoadedEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ConsentDialogFailed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: MoPubConsent+ConsentDialogFailedEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ConsentDialogShown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: MoPubConsent+ConsentDialogShownEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  ConsentDialogDismissed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: MoPubConsent+ConsentDialogDismissedEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1454245725692058288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453381859070949758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3a6715b6d5764059a04103fa09599ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabledOptions:
+  - appId
+  appId:
+    android: 5d649d98b624860017713928
+    ios: 5dd4a779a641b70018d39d0e
+--- !u!114 &1454245725692058289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453381859070949758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d943073a43364040aeb3e4890b2ead8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabledOptions:
+  - appKey
+  - applicationKey
+  applicationKey:
+    android: a8ea6015
+    ios: aae9a3ad
+--- !u!114 &1454245725692058290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453381859070949758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e21c73e6726944ffb6c62eea8d866a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabledOptions: []
+--- !u!114 &1454245725692058291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453381859070949758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 412db1475a72049e68b7117dcd808b69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabledOptions:
+  - sdk_key
+  sdkKey: 3VQ4TIs0L-iEa-cZIosrUoRFAouBezHiTinx_dyLbeaBcBlw-blTOBkZ-blcT0J1i5zikv2JTdUAqE4prqGD0-
+--- !u!114 &1454245725692058292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453381859070949758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa95d6b9baacf41e689a6349c57bc28f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enabledOptions:
+  - appid
+  appid:
+    android: ca-app-pub-2380106415199403~9830432370
+    ios: ca-app-pub-2380106415199403~1227686497
+  npa: 0
+  contentUrl: 
+  testDeviceId: 
+  taggedForChildDirectedTreatment: 0
+  taggedForUnderAgeOfConsent: 0
