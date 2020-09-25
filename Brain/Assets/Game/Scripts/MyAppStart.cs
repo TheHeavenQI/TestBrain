@@ -81,18 +81,18 @@ public class MyAppStart : MonoBehaviour {
     }
 
     private void InitFacebook() {
-        //if (FB.IsInitialized) {
-        //    FB.ActivateApp();
-        //    MyAppStart.FBInited = true;
-        //    CheckAllFinish();
-        //} else {
-        //    //Handle FB.Init
-        //    FB.Init(() => {
-        //        FB.ActivateApp();
-        //        MyAppStart.FBInited = true;
-        //        CheckAllFinish();
-        //    });
-        //}
+        if (FB.IsInitialized) {
+            FB.ActivateApp();
+            MyAppStart.FBInited = true;
+            CheckAllFinish();
+        } else {
+            //Handle FB.Init
+            FB.Init(() => {
+                FB.ActivateApp();
+                MyAppStart.FBInited = true;
+                CheckAllFinish();
+            });
+        }
     }
 
     private void InitBugly() {

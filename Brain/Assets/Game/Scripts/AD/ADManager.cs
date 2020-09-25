@@ -9,9 +9,7 @@ public class ADManager {
     public static event Action onRewardADChange;
     public static bool isMoPub = true;
     public static void Init() {
-        #if UNITY_EDITOR
-                return;
-        #endif
+
         FBNativeAD.initFBNative();
         AdUnit[] adUnits = new AdUnit[] { GameAdID.Reward, GameAdID.Interstitial, GameAdID.Banner };
         AdBridge.InitMediationType(MediationType.MoPub);

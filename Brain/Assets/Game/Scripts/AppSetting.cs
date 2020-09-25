@@ -34,10 +34,10 @@ public class AppSetting {
     public const bool isANDROID = false;
 #endif
 
-    public const string UrlTerms = "https://brain1231.tumblr.com/post/190187975563/agreement-to-terms";
-    public const string UrlPrivacy = "https://brain1231.tumblr.com/post/190187992113/privacy-policy";
+    public const string UrlTerms = "https://testbrain.tumblr.com/post/629588622688075776/terms-and-conditions";
+    public const string UrlPrivacy = "https://testbrain.tumblr.com/post/629588691278561280/privacy-policy";
 
-    public const string APPLE_ID = "";
+    public const string APPLE_ID = "1532380255";
 
     /// ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ BUGLY id ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
     public const string BUGLY_APP_ID = "";
@@ -46,11 +46,11 @@ public class AppSetting {
 
     /// ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Mopub广告相关 id ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
     public static string RewardMopubID = "";
-    public static string InterstitialMopubID = "";
+    public static string InterstitialMopubID = "5b07207b6b8c4d28bb9e7121ba3e39eb";
     public static string BannerMopubID = "";
     public static string FBNativeADS_iOS = "2431046500539162_2459667261010419";
     public static string FBNativeADS_android = "2431046500539162_2468593816784430";
-    public static string OneSignalKey = "";
+    public static string OneSignalKey = "22688905-dcb3-4551-8e52-411bb67c2163";
     public static string OneSignalKey_TEST = "";
     /// 安卓需要在 Plugins/Android/IronSource/AndroidManifest  中修改 GADApplicationIdentifier
     /// ca-app-pub-2380106415199403~9830432370
